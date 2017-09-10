@@ -1,0 +1,224 @@
+html { 
+    height: 100%;
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    font: normal .80em 'trebuchet ms';
+    background-image: url("../images/lock.jpg");
+    background-size:100%;
+}
+
+p { 
+    padding: 0 0 20px 0;
+    line-height: 1.7em;
+}
+
+img {
+    padding: 10px 0 0 150px;
+}
+
+#about_image, #insctructions_image, #home_image {
+    position: absolute;
+}
+
+h1 { 
+    font: normal 175% 'century gothic';
+    color: white;
+}
+
+ul#menu li:hover { 
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}
+
+#main, #logo, #menubar, #site_content { 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#logo { 
+    width: 900px;
+    position: relative;
+    height: 150px;
+}
+
+#logo #logo_text { 
+    position: absolute; 
+    top: 20px;
+    left: 50px;
+}
+
+#menubar { 
+    width: 900px;
+    height: 52px;
+    border: 2px solid white;
+    margin-bottom: 10px;
+    border-radius: 10px;
+} 
+
+ul#menu li { 
+    list-style: none;
+}
+
+ul#menu li {
+    letter-spacing: 0.1em;
+    font: normal 100% arial, sans-serif;
+    float: left; 
+    margin: 10px 0 0 10px;
+    padding: 10px 25px 10px 25px;
+    color: white;
+    text-decoration: none;
+} 
+
+#site_content { 
+    width: 855px;
+    height: 600px;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+    padding: 0 24px 20px 20px;
+    background: black;
+} 
+
+#content { 
+    width: 595px;
+    height: 900px;
+}
+
+#nextButton {
+    position: fixed;
+    top:70.6%;
+    left: 60%;
+}
+
+#previousButton {
+    position: fixed;
+    top:70.6%;
+    left: 36%;
+}
+
+#closeButton {
+    position: fixed;
+    top:70.6%;
+    left: 60%;
+}
+
+#img1, #img2, #img3 {
+    position: fixed;
+    top: 20%;
+}
+
+#encryptioninput {
+    position: absolute;
+    top: 300px;
+    z-index: 1;
+    height: 50px;
+}
+
+#encryptionoutput {
+    position: absolute;
+    top: 490px;
+    height: 100px;
+}
+
+#textInputEncryption {
+    position: absolute;
+    top: 280px;
+    color: white;
+}
+
+#textOutputEncryption {
+    position: absolute;
+    top: 470px;
+    color: white;
+}
+
+#encryptbutton {
+    position: absolute;
+    top: 325px;
+}
+
+#decryptioninput {
+    position: absolute;
+    top: 300px;
+    z-index: 1;
+    height: 50px;
+}
+
+#decryptionoutput {
+    position: absolute;
+    top: 480px;
+    height: 100px;
+}
+
+#textInputDecryption {
+    position: absolute;
+    top: 280px;
+    color: white;
+}
+
+#textOutputDecryption {
+    position: absolute;
+    top: 460px;
+    color: white;
+}
+
+#decryptbutton {
+    position: absolute;
+    top: 325px;
+}
+
+#shift {
+    position: absolute;
+    top: 380px;
+}
+
+#shiftText {
+    position: absolute;
+    top: 360px;
+    color: white;
+}
+
+#keys {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+#emojikeys {
+   position: absolute;
+   top: 53%;
+   left: 36.5%; 
+}
+
+#emojitable {
+    position: absolute;
+    top: 61%;
+    left: 43.5%;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#cityP {
+    position: absolute;
+    top: 400px;
+    color: white;
+}
+
+#cityInput {
+    position: absolute;
+    top: 420px;
+}
+
+#encryptcitybutton {
+    position: absolute;
+    top: 445px;
+}
+
+
